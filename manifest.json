@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "KILL HOTSTAR ADS",
+  "version": "1.0",
+  "description": "Press Alt+S to skip/mute ads on Hotstar.",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "skip-hotstar-ad": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Skip Hotstar ad manually"
+    }
+  },
+  "host_permissions": ["*://*.hotstar.com/*", "*://hotstar.in/*"],
+  "icons": {
+    "128": "gun.png"
+  }
+}
