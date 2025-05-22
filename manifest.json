@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "KILL HOTSTAR ADS",
   "version": "1.0",
-  "description": "Press Alt+S to skip/mute ads on Hotstar.",
+  "description": "Press Alt+S to skip ads on Hotstar and Alt+U to speed up video and Alt+D to speed down",
   "permissions": ["scripting", "activeTab"],
   "background": {
     "service_worker": "background.js"
@@ -13,6 +13,18 @@
         "default": "Alt+S"
       },
       "description": "Skip Hotstar ad manually"
+    },
+    "inc_speed": {
+      "suggested_key": {
+        "default": "Alt+U"
+      },
+      "description": "Speed Up Content Speed"
+    },
+    "dec_speed": {
+      "suggested_key": {
+        "default": "Alt+I"
+      },
+      "description": "Speed Down Content Speed"
     }
   },
   "host_permissions": ["*://*.hotstar.com/*", "*://hotstar.in/*"],
