@@ -3,6 +3,7 @@
 Tired of Hotstar ads ruining your binge? Just hit **Alt + S** and _poof_ — ads skipped or muted. Easy peasy.
 
 **Update**-> Web Version of hotstar doesnt provide option for inc speed so i did.
+**Update 2** -> No one asked for but now speed is shown whenever u adjust it up or down.
 
 ## What’s this?
 
